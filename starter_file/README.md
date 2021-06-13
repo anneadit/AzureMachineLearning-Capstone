@@ -150,7 +150,15 @@ Fig 7: Data sent for deployed endpoint consumption
 Fig 8: Successful retrieval of test data results
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+
+A screencast of the project may be viewed at https://youtu.be/a4c5DFrmGV8
+
+## Future Work
+
+I would like to try out the following things in the future and check if I get better performing models:
+
+    1. Enable Deep Learning in AutoML
+    2. Increase the experiment run times for both AutoML and Hyperdrive
+    3. Use ensemble models in Hyperdrive with larger ranges for the hyperparameters
+    
+It would also be interesting to assess the fairness in the models. We could assess the fairness of the model by looking at certain metrics such as False Positive Rates and False Negative Rates since the model uses gender and age features.
